@@ -122,3 +122,121 @@ margin-bottom: 8px;
 }
 
 /* header-category */
+
+
+.header-categories{
+    padding: 64px 0px 30px 0px;
+}
+.category-container{
+    display: flex;
+    gap: 26px;
+
+}
+.header-categories h2{
+font-size: 36px;
+font-weight: 600;
+}
+.category-card{
+    display: flex;
+    justify-content: space-around;
+    border-radius: 10px;
+    align-items: center;
+    width: 360px;
+    height: 120px;
+    font-size: 36px;
+    font-weight: 500;
+    color: rgb(255, 255, 255);
+    margin-top: 24px;
+    
+}
+.category-container .watch{
+    background: linear-gradient(rgb(255, 156, 53),
+rgb(255, 208, 25));
+}
+.category-container .bag{
+    background: linear-gradient(rgb(255, 88, 155),
+rgb(255, 19, 111));
+}
+.category-container .shoes{
+    background: linear-gradient(rgb(66, 137, 255),
+rgb(63, 7, 248));
+}
+.category-card img {
+    width: 94px;
+    height: 94px;
+}
+
+
+/* main*/
+main{
+    background-color: rgba(244, 244, 244, 1.00);
+ 
+}
+/*Shoes Section */
+
+.shoes-container{
+    display: flex;
+    gap: 24px;
+    
+    
+}
+.shoes-card{
+    width: 360px;
+    background-color: rgb(255, 255, 255);
+    padding: 24px 12px;
+    border-radius: 20px;
+}
+.shoes-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 10px;
+}
+.shoes-header h2{
+    font-size: 36px;
+    font-weight: 600px;
+    margin: 46px 0px 24px;
+}
+.shoes-header p{
+    font-size: 20px;
+    font-weight: 500;
+    color: rgba(255, 157, 0, 1.00);
+}
+.shoes-card img{
+    width: 336px;
+    height: 202px;
+    margin-bottom: 22px;
+}
+.shoes-card h3{
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 16px;
+}
+.shoes-card p{
+    font-size: 16px;
+    font-weight: 500;
+    color: rgba(78, 78, 78, 1.00);
+    text-align: center;
+    margin-bottom: 16px;
+}
+
+.shoes-card h4{
+    font-weight: 500;
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 16px;
+}
+.shoes-card button{
+    padding: 14px 20px;
+    background-color: rgba(0, 0, 0, 1.00);
+    color: rgba(255, 255, 255, 1.00);
+    font-weight: 500;
+    font-size: 16px;
+    border: none;
+    border-radius: 6px;
+    display: block;
+    margin: 0px auto;
+    cursor: pointer;
+}
+
+/* bags section */
