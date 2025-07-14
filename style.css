@@ -13,6 +13,21 @@
     margin: auto;
 }
 
+/* poppins */
+.poppins {
+  font-family: "Poppins", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+/* inter family */
+
+
+.inter{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
 
 /* Body */
 
@@ -59,3 +74,51 @@
 
 /* Banner */
 
+.banner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 141px;
+    background-color: rgba(254, 234, 233, 1.00);
+    margin-top: 63px;
+    padding:38px 63px 38px 43px;
+    border-radius: 20px;
+}
+.banner img{
+    width: 402px;
+    height: 378px;
+}
+
+.banner h1{
+font-size: 56px;
+font-weight: bold;
+color: rgba(31, 31, 31, 1.00);
+margin-bottom: 8px;
+}
+.banner p{
+    color: rgba(78, 78, 78, 1.00);
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 8px;
+}
+.banner h3{
+    color: rgba(255, 19, 111, 1.00);
+    font-weight: 700;
+    font-size: 41px;
+    margin-bottom: 8px;
+}
+.banner button{
+    background-color: rgba(255, 88, 155, 1.00);
+    padding: 14px 20px;
+    font-size: 16px;
+    color: rgba(255, 255, 255, 1.00);
+    font-weight: 500;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+.banner button i{
+    margin-left: 5px;
+}
+
+/* header-category */
