@@ -180,12 +180,6 @@ main{
     
     
 }
-.shoes-card{
-    width: 360px;
-    background-color: rgb(255, 255, 255);
-    padding: 24px 12px;
-    border-radius: 20px;
-}
 .shoes-header{
     display: flex;
     justify-content: space-between;
@@ -202,6 +196,13 @@ main{
     font-weight: 500;
     color: rgba(255, 157, 0, 1.00);
 }
+.shoes-card{
+    width: 360px;
+    background-color: rgb(255, 255, 255);
+    padding: 24px 12px;
+    border-radius: 20px;
+}
+
 .shoes-card img{
     width: 336px;
     height: 202px;
@@ -240,3 +241,67 @@ main{
 }
 
 /* bags section */
+
+.bags-container{
+    display: flex;
+    gap: 24px;
+}
+.bags-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 10px;
+}
+.bags-header h2{
+    font-size: 36px;
+    font-weight: 600px;
+    margin: 46px 0px 24px;
+}
+.bags-header p{
+    font-size: 20px;
+    font-weight: 500;
+    color: rgba(255, 157, 0, 1.00);
+}
+.bags-card img{
+    width: 290px;
+    height: 290px;
+    margin-bottom: 22px;
+}
+.bags-card{
+    width: 360px;
+    background-color: rgb(255, 255, 255);
+    padding: 24px 12px;
+    border-radius: 20px;
+}
+
+.bags-card h3{
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 16px;
+}
+.bags-card p{
+    font-size: 16px;
+    font-weight: 500;
+    color: rgba(78, 78, 78, 1.00);
+    text-align: center;
+    margin-bottom: 16px;
+}
+
+.bags-card h4{
+    font-weight: 500;
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 16px;
+}
+.bags-card button{
+    padding: 14px 20px;
+    background-color: rgba(0, 0, 0, 1.00);
+    color: rgba(255, 255, 255, 1.00);
+    font-weight: 500;
+    font-size: 16px;
+    border: none;
+    border-radius: 6px;
+    display: block;
+    margin: 0px auto;
+    cursor: pointer;
+}
